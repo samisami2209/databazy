@@ -1,0 +1,14 @@
+validation_rule,severity,description,invalid_rows,invalid_share_pct
+invalid_quantity,critical,Quantity nie je kladné celé číslo,29,14.5
+invalid_discount,critical,Discount nie je číslo 0–100,29,14.5
+duplicate_order_id,critical,OrderID sa vyskytuje viackrát,22,11.0
+invalid_sales_amount,critical,SalesAmount nie je kladné číslo,22,11.0
+delivery_before_order,critical,DeliveryDate je skôr ako OrderDate,18,9.0
+invalid_delivery_date,critical,DeliveryDate chýba alebo nie je platný dátum,10,5.0
+invalid_order_date,critical,OrderDate nie je platný dátum,3,1.5
+invalid_order_id,critical,OrderID chýba alebo nemá formát ORDdddd,0,0.0
+invalid_region,critical,Region nie je North/South/East/West,0,0.0
+invalid_product,critical,Product nepatrí do povolenej množiny,0,0.0
+invalid_phone,warning,"PhoneNumber je vyplnený, ale nemá 10–15 číslic",34,17.0
+unknown_product,warning,Product má zástupnú hodnotu 'Unknown',31,15.5
+missing_customer,warning,CustomerName chýba,22,11.0
